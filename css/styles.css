@@ -51,7 +51,6 @@ a {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
-  background-color: #404bbf;
 }
 
 .hero-title,
@@ -75,6 +74,10 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+}
+
+.button:focus {
+  background-color: #404bbf;
 }
 
 .features-title {
