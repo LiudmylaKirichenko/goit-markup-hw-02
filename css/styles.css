@@ -51,19 +51,12 @@ a {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+  background-color: #404bbf;
 }
 
 .hero-title,
 .footer-page {
   background-color: #2e2f42;
-}
-
-.features-title,
-.title-team,
-.team-member,
-.title-portfolio,
-.product-title {
-  color: #2e2f42;
 }
 
 .main-title {
@@ -85,10 +78,12 @@ a {
 }
 
 .features-title {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .section-content {
@@ -102,25 +97,49 @@ a {
 }
 
 .title-team {
+  color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.list-team {
+  background-color: #ffffff;
 }
 
 .team-member {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.section-content-team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.section-portfolio {
+  background-color: #fff;
 }
 
 .title-portfolio {
+  color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .product-title {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
