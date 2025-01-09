@@ -53,8 +53,8 @@ a {
   color: #404bbf;
 }
 
-.hero-title,
-.footer-page {
+.hero-title {
+  text-align: center;
   background-color: #2e2f42;
 }
 
@@ -76,7 +76,7 @@ a {
   background-color: #4d5ae5;
 }
 
-.button:focus {
+.button:hover {
   background-color: #404bbf;
 }
 
@@ -108,7 +108,7 @@ a {
   text-transform: capitalize;
 }
 
-.list-team {
+.team-item {
   background-color: #ffffff;
 }
 
@@ -147,6 +147,10 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.footer-page {
+  background-color: #2e2f42;
 }
 
 .footer-logo .logo-part {
