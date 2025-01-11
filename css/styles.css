@@ -76,8 +76,10 @@ a {
   background-color: #4d5ae5;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
+  color: #fff;
 }
 
 .features-title {
